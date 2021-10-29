@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="show()">
+    <!-- header start -->
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="logo" class="logo">
+
+            <div class="search-box">
+                <input type="search" placeholder="Search for profucts, brands and more">
+                <i class="fa fa-search"></i>
+            </div>
+
+            <button class="login">Login</button>
+
+            <div class="list">
+                <h5>More</h5>
+                <div class="li">
+                    <p>Notification Preferences</p>
+                    <p>Sell on Flipkart</p>
+                    <p>24x7 Customer Care</p>
+                    <p>Advertise</p>
+                    <p>Download App</p>
+                </div>
+            </div>
+
+            <div class="cart">
+                <p> <i class="fa fa-cart-arrow-down"></i> Cart</p>
+            </div>
+        </nav>
+    </header>
+    <!-- header ends -->
+
+    <!-- header bottom -->
+     <section class="header-bottom">
+     <div class="header-bottom-inner">
+         <div class="box">
+             <img src="images/header bottom/p1.png" alt="">
+             <h3>Top Offers</h3>
+         </div>
+         <div class="box">
+             <img src="images/header bottom/p2.png" alt="">
+             <h3>Grocery</h3>
+         </div>
+         <div class="box">
+            <img src="images/header bottom/p3.png" alt="">
+            <h3>Mobiles</h3>
+         </div>
+         <div class="box">
+            <img src="images/header bottom/p4.png" alt="">
+            <h3>Fashion</h3>
+         </div>
+         <div class="box">
+            <img src="images/header bottom/p5.png" alt="">
+            <h3>Electronics</h3>
+         </div>
+         <div class="box">
+            <img src="images/header bottom/p6.jpg" alt="">
+            <h3 >Home</h3>
+         </div>
+         <div class="box">
+            <img src="images/header bottom/p7.png" alt="">
+            <h3>Appliances</h3>
+         </div>
+         <div class="box">
+            <img src="images/header bottom/p8.png" alt="">
+            <h3>Travel</h3>
+         </div>
+         <div class="box">
+            <img src="images/header bottom/p9.png" alt="">
+            <h3>Beauty, Toys & More</h3>
+         </div>
+     </div>
+     </section>
+    <!-- header bottom ends -->
+
+        <!-- banner slider -->
+
+        <section class="banner-slider">
+            <div class="box banner-box">
+                <img src="images/banner-images/p1.jpg">
+            </div>
+            <div class="box banner-box">
+                <img src="images/banner-images/p2.jpg">
+            </div>
+            <div class="box banner-box">
+                <img src="images/banner-images/p3.png">
+            </div>
+            <div class="box banner-box">
+                <img src="images/banner-images/p4.jpg">
+            </div>
+            <div class="box banner-box">
+                <img src="images/banner-images/p5.jpg">
+            </div>
+
+            <i class="fa fa-angle-left" id="left-btn" onclick="controler(-1)"></i>
+            <i class="fa fa-angle-right" id="right-btn" onclick="controler(1)"></i>
+        </section>
+
+        <!-- banner slider ends -->
+
+        <!-- footwear section start -->
+        <section class="footwear">
+         <div class="top">
+             <h1>Men's Footwear</h1>
+             <button>VIEW ALL</button>
+         </div>
+         <div class="container">
+             <div class="left-btn">
+                 <button class="fa fa-caret-left" onclick="leftClick()"></button>
+             </div>
+             <div class="box"  id="box1">
+                 <img src="images/footwear/p1.jpeg" alt="">
+                 <h5>Kraasa, Essence & more Canvas Shoes For Men</h5>
+                 <p class="discount"> 30-60% Off</p>
+                 <p>Shoes For Men</p>
+             </div>
+             <div class="box"  id="box2">
+                 <img src="images/footwear/p2.jpeg" alt="">
+                 <h5>Nike, Asics, Skechers... </h5>
+                 <p class="discount">Explone More!!</p>
+                 <p>Sports Shoes</p>
+             </div>
+             <div class="box" id="box3">
+                 <img src="images/footwear/p3.jpeg" alt="">
+                 <h5>Campus</h5>
+                 <p class="discount">Upto 60% Off</p>
+                 <p> Slipers & Flip Flops</p>
+             </div>
+             <div class="box" id="box4">
+                <img src="images/footwear/p4.jpeg" alt="">
+                <h5>Puma, Adidas & more</h5>
+                 <p class="discount">Under Rs 999</p>
+                 <p>Sandals & Slipers</p>
+             </div>
+             <div class="box"id="box5">
+                <img src="images/footwear/p5.jpeg" alt="">
+                <h5>Nike, Puma, Reebok...</h5>
+                 <p class="discount">Up to 60% Off</p>
+                 <p>Cricket Shoes</p>
+             </div>
+             <div class="box" id="box6">
+                <img src="images/footwear/p6.jpeg" alt="">
+                <h5>Nike, Adidas, Puma...</h5>
+                 <p class="discount"> Up to 60% Off</p>
+                 <p>Running Shoes</p>
+             </div>
+             <div class="box"  id="box7">
+                <img src="images/footwear/p8.jpeg" alt="">
+                <h5>Sparx, Bata & more </h5>
+                 <p class="discount">Up to 60% Off</p>
+                 <p> Casual Shoes,Sneakers</p>
+             </div>
+             <div class="box" id="box8">
+                <img src="images/footwear/p7.jpeg" alt="">
+                <h5>Red Chief, Wildcarft, Usp...</h5>
+                 <p class="discount">Min 50% Off</p>
+                 <p> Men's Shoes & Sandals</p>
+             </div>
+             <div class="right-btn">
+                <button class="fa fa-caret-right" onclick="rightClick()"></button>
+            </div>
+         </div>
+        </section>
+        <!-- footwear section ends -->
+
+
+
+
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
